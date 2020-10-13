@@ -1,0 +1,180 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.uts_pbp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="25"
+8-->/Users/johankafiar/Desktop/PBP/PBP_UTS_2-master 5/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/johankafiar/Desktop/PBP/PBP_UTS_2-master 5/app/src/main/AndroidManifest.xml
+10
+11    <!-- UNTUK GEOLOC -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/johankafiar/Desktop/PBP/PBP_UTS_2-master 5/app/src/main/AndroidManifest.xml:6:5-66
+12-->/Users/johankafiar/Desktop/PBP/PBP_UTS_2-master 5/app/src/main/AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->/Users/johankafiar/Desktop/PBP/PBP_UTS_2-master 5/app/src/main/AndroidManifest.xml:7:5-78
+13-->/Users/johankafiar/Desktop/PBP/PBP_UTS_2-master 5/app/src/main/AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->/Users/johankafiar/Desktop/PBP/PBP_UTS_2-master 5/app/src/main/AndroidManifest.xml:9:5-64
+14-->/Users/johankafiar/Desktop/PBP/PBP_UTS_2-master 5/app/src/main/AndroidManifest.xml:9:22-62
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->/Users/johankafiar/Desktop/PBP/PBP_UTS_2-master 5/app/src/main/AndroidManifest.xml:10:5-80
+15-->/Users/johankafiar/Desktop/PBP/PBP_UTS_2-master 5/app/src/main/AndroidManifest.xml:10:22-78
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->[com.mapbox.mapboxsdk:mapbox-android-navigation:0.42.6] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/916c39e412c5878255b8537310363828/jetified-mapbox-android-navigation-0.42.6/AndroidManifest.xml:9:5-81
+16-->[com.mapbox.mapboxsdk:mapbox-android-navigation:0.42.6] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/916c39e412c5878255b8537310363828/jetified-mapbox-android-navigation-0.42.6/AndroidManifest.xml:9:22-78
+17    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+17-->[com.mapbox.mapboxsdk:mapbox-android-navigation:0.42.6] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/916c39e412c5878255b8537310363828/jetified-mapbox-android-navigation-0.42.6/AndroidManifest.xml:11:5-77
+17-->[com.mapbox.mapboxsdk:mapbox-android-navigation:0.42.6] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/916c39e412c5878255b8537310363828/jetified-mapbox-android-navigation-0.42.6/AndroidManifest.xml:11:22-74
+18
+19    <uses-feature
+19-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/220cbdf2515c7209b1f0c042102846dd/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:9:5-11:35
+20        android:glEsVersion="0x00020000"
+20-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/220cbdf2515c7209b1f0c042102846dd/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:10:9-41
+21        android:required="true" />
+21-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/220cbdf2515c7209b1f0c042102846dd/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:11:9-32
+22    <uses-feature
+22-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/220cbdf2515c7209b1f0c042102846dd/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:12:5-14:36
+23        android:name="android.hardware.wifi"
+23-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/220cbdf2515c7209b1f0c042102846dd/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:13:9-45
+24        android:required="false" />
+24-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/220cbdf2515c7209b1f0c042102846dd/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:14:9-33
+25
+26    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+26-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/220cbdf2515c7209b1f0c042102846dd/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:17:5-79
+26-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/220cbdf2515c7209b1f0c042102846dd/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:17:22-76
+27    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Required for CrashReporterJobIntentService on API levels below 25 -->
+27-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/220cbdf2515c7209b1f0c042102846dd/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:18:5-76
+27-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/220cbdf2515c7209b1f0c042102846dd/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:18:22-73
+28    <uses-permission android:name="android.permission.WAKE_LOCK" />
+28-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/f3964edb49520aa546ec83dbf87965d8/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:12:5-68
+28-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/f3964edb49520aa546ec83dbf87965d8/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:12:22-65
+29
+30    <application
+30-->/Users/johankafiar/Desktop/PBP/PBP_UTS_2-master 5/app/src/main/AndroidManifest.xml:12:5-35:19
+31        android:allowBackup="true"
+31-->/Users/johankafiar/Desktop/PBP/PBP_UTS_2-master 5/app/src/main/AndroidManifest.xml:13:9-35
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.3.1] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/ae3468b444d41a56f261ecbb8448fe17/core-1.3.1/AndroidManifest.xml:24:18-86
+33        android:debuggable="true"
+34        android:extractNativeLibs="false"
+35        android:icon="@mipmap/ic_launcher"
+35-->/Users/johankafiar/Desktop/PBP/PBP_UTS_2-master 5/app/src/main/AndroidManifest.xml:14:9-43
+36        android:label="@string/app_name"
+36-->/Users/johankafiar/Desktop/PBP/PBP_UTS_2-master 5/app/src/main/AndroidManifest.xml:15:9-41
+37        android:roundIcon="@mipmap/ic_launcher_round"
+37-->/Users/johankafiar/Desktop/PBP/PBP_UTS_2-master 5/app/src/main/AndroidManifest.xml:16:9-54
+38        android:supportsRtl="true"
+38-->/Users/johankafiar/Desktop/PBP/PBP_UTS_2-master 5/app/src/main/AndroidManifest.xml:17:9-35
+39        android:testOnly="true"
+40        android:theme="@style/AppTheme" >
+40-->/Users/johankafiar/Desktop/PBP/PBP_UTS_2-master 5/app/src/main/AndroidManifest.xml:18:9-40
+41        <activity android:name="com.example.uts_pbp.CustomerActivity" />
+41-->/Users/johankafiar/Desktop/PBP/PBP_UTS_2-master 5/app/src/main/AndroidManifest.xml:19:9-63
+41-->/Users/johankafiar/Desktop/PBP/PBP_UTS_2-master 5/app/src/main/AndroidManifest.xml:19:19-51
+42        <activity android:name="com.example.uts_pbp.Motorcycle" />
+42-->/Users/johankafiar/Desktop/PBP/PBP_UTS_2-master 5/app/src/main/AndroidManifest.xml:20:9-48
+42-->/Users/johankafiar/Desktop/PBP/PBP_UTS_2-master 5/app/src/main/AndroidManifest.xml:20:19-45
+43        <activity android:name="com.example.uts_pbp.ProfileActivity" />
+43-->/Users/johankafiar/Desktop/PBP/PBP_UTS_2-master 5/app/src/main/AndroidManifest.xml:21:9-53
+43-->/Users/johankafiar/Desktop/PBP/PBP_UTS_2-master 5/app/src/main/AndroidManifest.xml:21:19-50
+44        <activity android:name="com.example.uts_pbp.LocationActivity" />
+44-->/Users/johankafiar/Desktop/PBP/PBP_UTS_2-master 5/app/src/main/AndroidManifest.xml:22:9-54
+44-->/Users/johankafiar/Desktop/PBP/PBP_UTS_2-master 5/app/src/main/AndroidManifest.xml:22:19-51
+45        <activity android:name="com.example.uts_pbp.MainActivity" />
+45-->/Users/johankafiar/Desktop/PBP/PBP_UTS_2-master 5/app/src/main/AndroidManifest.xml:23:9-50
+45-->/Users/johankafiar/Desktop/PBP/PBP_UTS_2-master 5/app/src/main/AndroidManifest.xml:23:19-47
+46        <activity android:name="com.example.uts_pbp.SplashActivity" >
+46-->/Users/johankafiar/Desktop/PBP/PBP_UTS_2-master 5/app/src/main/AndroidManifest.xml:24:9-30:20
+46-->/Users/johankafiar/Desktop/PBP/PBP_UTS_2-master 5/app/src/main/AndroidManifest.xml:24:19-49
+47            <intent-filter>
+47-->/Users/johankafiar/Desktop/PBP/PBP_UTS_2-master 5/app/src/main/AndroidManifest.xml:25:13-29:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->/Users/johankafiar/Desktop/PBP/PBP_UTS_2-master 5/app/src/main/AndroidManifest.xml:26:17-69
+48-->/Users/johankafiar/Desktop/PBP/PBP_UTS_2-master 5/app/src/main/AndroidManifest.xml:26:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->/Users/johankafiar/Desktop/PBP/PBP_UTS_2-master 5/app/src/main/AndroidManifest.xml:28:17-77
+50-->/Users/johankafiar/Desktop/PBP/PBP_UTS_2-master 5/app/src/main/AndroidManifest.xml:28:27-74
+51            </intent-filter>
+52        </activity>
+53        <activity
+53-->/Users/johankafiar/Desktop/PBP/PBP_UTS_2-master 5/app/src/main/AndroidManifest.xml:32:9-34:47
+54            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+54-->/Users/johankafiar/Desktop/PBP/PBP_UTS_2-master 5/app/src/main/AndroidManifest.xml:33:13-76
+55            android:theme="@style/AppTheme" />
+55-->/Users/johankafiar/Desktop/PBP/PBP_UTS_2-master 5/app/src/main/AndroidManifest.xml:34:13-44
+56        <activity android:name="com.mapbox.services.android.navigation.ui.v5.MapboxNavigationActivity" />
+56-->[com.mapbox.mapboxsdk:mapbox-android-navigation-ui:0.42.6] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/6c2b71a6d94f1e9eddfd15fb9b39e212/jetified-mapbox-android-navigation-ui-0.42.6/AndroidManifest.xml:10:9-106
+56-->[com.mapbox.mapboxsdk:mapbox-android-navigation-ui:0.42.6] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/6c2b71a6d94f1e9eddfd15fb9b39e212/jetified-mapbox-android-navigation-ui-0.42.6/AndroidManifest.xml:10:19-103
+57        <activity
+57-->[com.mapbox.mapboxsdk:mapbox-android-plugin-places-v9:0.12.0] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/39a0faa0bcb457e5d90c2c85b9f1b379/jetified-mapbox-android-plugin-places-v9-0.12.0/AndroidManifest.xml:10:9-14:68
+58            android:name="com.mapbox.mapboxsdk.plugins.places.autocomplete.ui.PlaceAutocompleteActivity"
+58-->[com.mapbox.mapboxsdk:mapbox-android-plugin-places-v9:0.12.0] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/39a0faa0bcb457e5d90c2c85b9f1b379/jetified-mapbox-android-plugin-places-v9-0.12.0/AndroidManifest.xml:11:13-105
+59            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+59-->[com.mapbox.mapboxsdk:mapbox-android-plugin-places-v9:0.12.0] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/39a0faa0bcb457e5d90c2c85b9f1b379/jetified-mapbox-android-plugin-places-v9-0.12.0/AndroidManifest.xml:12:13-122
+60            android:theme="@style/mapbox_plugins_translucent"
+60-->[com.mapbox.mapboxsdk:mapbox-android-plugin-places-v9:0.12.0] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/39a0faa0bcb457e5d90c2c85b9f1b379/jetified-mapbox-android-plugin-places-v9-0.12.0/AndroidManifest.xml:13:13-62
+61            android:windowSoftInputMode="stateVisible|adjustPan" />
+61-->[com.mapbox.mapboxsdk:mapbox-android-plugin-places-v9:0.12.0] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/39a0faa0bcb457e5d90c2c85b9f1b379/jetified-mapbox-android-plugin-places-v9-0.12.0/AndroidManifest.xml:14:13-65
+62        <activity
+62-->[com.mapbox.mapboxsdk:mapbox-android-plugin-places-v9:0.12.0] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/39a0faa0bcb457e5d90c2c85b9f1b379/jetified-mapbox-android-plugin-places-v9-0.12.0/AndroidManifest.xml:15:9-17:125
+63            android:name="com.mapbox.mapboxsdk.plugins.places.picker.ui.PlacePickerActivity"
+63-->[com.mapbox.mapboxsdk:mapbox-android-plugin-places-v9:0.12.0] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/39a0faa0bcb457e5d90c2c85b9f1b379/jetified-mapbox-android-plugin-places-v9-0.12.0/AndroidManifest.xml:16:13-93
+64            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+64-->[com.mapbox.mapboxsdk:mapbox-android-plugin-places-v9:0.12.0] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/39a0faa0bcb457e5d90c2c85b9f1b379/jetified-mapbox-android-plugin-places-v9-0.12.0/AndroidManifest.xml:17:13-122
+65
+66        <service android:name="com.mapbox.services.android.navigation.v5.navigation.NavigationService" />
+66-->[com.mapbox.mapboxsdk:mapbox-android-navigation:0.42.6] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/916c39e412c5878255b8537310363828/jetified-mapbox-android-navigation-0.42.6/AndroidManifest.xml:14:9-106
+66-->[com.mapbox.mapboxsdk:mapbox-android-navigation:0.42.6] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/916c39e412c5878255b8537310363828/jetified-mapbox-android-navigation-0.42.6/AndroidManifest.xml:14:18-103
+67
+68        <provider
+68-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/f3964edb49520aa546ec83dbf87965d8/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:18:9-22:39
+69            android:name="com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider"
+69-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/f3964edb49520aa546ec83dbf87965d8/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:19:13-93
+70            android:authorities="com.example.uts_pbp.mapboxtelemetryinitprovider"
+70-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/f3964edb49520aa546ec83dbf87965d8/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:20:13-79
+71            android:exported="false"
+71-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/f3964edb49520aa546ec83dbf87965d8/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:21:13-37
+72            android:initOrder="100" />
+72-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/f3964edb49520aa546ec83dbf87965d8/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:22:13-36
+73
+74        <service
+74-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/f3964edb49520aa546ec83dbf87965d8/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:24:9-26:72
+75            android:name="com.mapbox.android.telemetry.errors.ErrorReporterJobIntentService"
+75-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/f3964edb49520aa546ec83dbf87965d8/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:25:13-93
+76            android:permission="android.permission.BIND_JOB_SERVICE" />
+76-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/f3964edb49520aa546ec83dbf87965d8/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:26:13-69
+77        <service
+77-->[androidx.room:room-runtime:2.2.5] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/28e9fb3eede996dd8d91f8bfd7ee4a2a/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+78            android:name="androidx.room.MultiInstanceInvalidationService"
+78-->[androidx.room:room-runtime:2.2.5] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/28e9fb3eede996dd8d91f8bfd7ee4a2a/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+79            android:directBootAware="true"
+79-->[androidx.room:room-runtime:2.2.5] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/28e9fb3eede996dd8d91f8bfd7ee4a2a/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+80            android:exported="false" />
+80-->[androidx.room:room-runtime:2.2.5] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/28e9fb3eede996dd8d91f8bfd7ee4a2a/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+81
+82        <provider
+82-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/0dd7ac39faaf6c192fa045218325acf5/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
+83            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+83-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/0dd7ac39faaf6c192fa045218325acf5/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79
+84            android:authorities="com.example.uts_pbp.lifecycle-process"
+84-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/0dd7ac39faaf6c192fa045218325acf5/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
+85            android:exported="false"
+85-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/0dd7ac39faaf6c192fa045218325acf5/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
+86            android:multiprocess="true" />
+86-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/0dd7ac39faaf6c192fa045218325acf5/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
+87        <provider
+87-->[com.squareup.picasso:picasso:2.71828] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/a4a49d8e2f3147f9cc190ad322e0dba8/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+88            android:name="com.squareup.picasso.PicassoProvider"
+88-->[com.squareup.picasso:picasso:2.71828] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/a4a49d8e2f3147f9cc190ad322e0dba8/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+89            android:authorities="com.example.uts_pbp.com.squareup.picasso"
+89-->[com.squareup.picasso:picasso:2.71828] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/a4a49d8e2f3147f9cc190ad322e0dba8/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+90            android:exported="false" />
+90-->[com.squareup.picasso:picasso:2.71828] /Users/johankafiar/.gradle/caches/transforms-2/files-2.1/a4a49d8e2f3147f9cc190ad322e0dba8/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+91    </application>
+92
+93</manifest>

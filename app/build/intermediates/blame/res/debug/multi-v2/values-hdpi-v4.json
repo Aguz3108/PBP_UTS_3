@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/johankafiar/Desktop/PBP/PBP_UTS_2-master 5/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/johankafiar/.gradle/caches/transforms-2/files-2.1/6c2b71a6d94f1e9eddfd15fb9b39e212/jetified-mapbox-android-navigation-ui-0.42.6/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,110",
+                        "endColumns": "54,47",
+                        "endOffsets": "105,153"
+                    }
+                },
+                {
+                    "source": "/Users/johankafiar/.gradle/caches/transforms-2/files-2.1/bf96d2b5a86ecd602a621e7e96856420/appcompat-1.2.0/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "158",
+                        "endLines": "8",
+                        "endColumns": "13",
+                        "endOffsets": "430"
+                    }
+                }
+            ]
+        }
+    ]
+}

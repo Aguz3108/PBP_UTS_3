@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">UTS_PBP</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoiY2hhbmFkeWEiLCJhIjoiY2tmbnI3ODh0MDdqZzJybzB3M2o1N2M1YiJ9.VYfIJUREJy5JsB6EpR1AqA</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hari">Hari</string>
+</resources>

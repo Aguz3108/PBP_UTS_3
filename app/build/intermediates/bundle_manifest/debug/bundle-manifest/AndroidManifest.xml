@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.uts_pbp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="25"
+        android:targetSdkVersion="30" />
+
+    <!-- UNTUK GEOLOC -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Required for CrashReporterJobIntentService on API levels below 25 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.uts_pbp.CustomerActivity" />
+        <activity android:name="com.example.uts_pbp.Motorcycle" />
+        <activity android:name="com.example.uts_pbp.ProfileActivity" />
+        <activity android:name="com.example.uts_pbp.LocationActivity" />
+        <activity android:name="com.example.uts_pbp.MainActivity" />
+        <activity android:name="com.example.uts_pbp.SplashActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name="com.mapbox.services.android.navigation.ui.v5.MapboxNavigationActivity" />
+        <activity
+            android:name="com.mapbox.mapboxsdk.plugins.places.autocomplete.ui.PlaceAutocompleteActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@style/mapbox_plugins_translucent"
+            android:windowSoftInputMode="stateVisible|adjustPan" />
+        <activity
+            android:name="com.mapbox.mapboxsdk.plugins.places.picker.ui.PlacePickerActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+
+        <service android:name="com.mapbox.services.android.navigation.v5.navigation.NavigationService" />
+
+        <provider
+            android:name="com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider"
+            android:authorities="com.example.uts_pbp.mapboxtelemetryinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <service
+            android:name="com.mapbox.android.telemetry.errors.ErrorReporterJobIntentService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:directBootAware="true"
+            android:exported="false" />
+
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.example.uts_pbp.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.example.uts_pbp.com.squareup.picasso"
+            android:exported="false" />
+    </application>
+
+</manifest>

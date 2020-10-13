@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/johankafiar/Desktop/PBP/PBP_UTS_2-master 5/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-id/values-id.xml",
+            "map": [
+                {
+                    "source": "/Users/johankafiar/.gradle/caches/transforms-2/files-2.1/6c2b71a6d94f1e9eddfd15fb9b39e212/jetified-mapbox-android-navigation-ui-0.42.6/res/values-id/values-id.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,105,157",
+                        "endColumns": "49,51,52",
+                        "endOffsets": "100,152,205"
+                    },
+                    "to": {
+                        "startLines": "10,12,13",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "658,781,833",
+                        "endColumns": "49,51,52",
+                        "endOffsets": "703,828,881"
+                    }
+                },
+                {
+                    "source": "/Users/johankafiar/.gradle/caches/transforms-2/files-2.1/0f790169ab51d78a9886bf7352ebf9db/jetified-android-image-cropper-2.8.0/res/values-id/values-id.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,170,226,281,367,449,537,600",
+                        "endColumns": "114,55,54,85,81,87,62,72",
+                        "endOffsets": "165,221,276,362,444,532,595,668"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,11",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,170,226,281,367,449,537,708",
+                        "endColumns": "114,55,54,85,81,87,62,72",
+                        "endOffsets": "165,221,276,362,444,532,595,776"
+                    }
+                },
+                {
+                    "source": "/Users/johankafiar/.gradle/caches/transforms-2/files-2.1/916c39e412c5878255b8537310363828/jetified-mapbox-android-navigation-0.42.6/res/values-id/values-id.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "57",
+                        "endOffsets": "108"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "600",
+                        "endColumns": "57",
+                        "endOffsets": "653"
+                    }
+                }
+            ]
+        }
+    ]
+}
